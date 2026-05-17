@@ -1,8 +1,8 @@
-# RoboSats Uptime Kuma Watcher
+# RoboSats Order Watcher
 
 Tiny private helper for watching a RoboSats order through your self-hosted RoboSats client proxy.
 
-It lets Uptime Kuma use one stable monitor instead of updating the coordinator, order ID, and Base91 auth token for every new order.
+It lets a tool such as Uptime Kuma use one stable monitor instead of updating the coordinator, order ID, and Base91 auth token for every new order.
 
 ## How It Works
 
@@ -27,7 +27,7 @@ Edit `config.json`:
 
 ```json
 {
-  "baseUrl": "https://trim-toolbox.local:57710",
+  "baseUrl": "https://mystart9.local:57710",
   "network": "mainnet",
   "coordinators": ["temple", "lake", "moon", "bazaar", "freedomsats", "alice"],
   "robotToken": "paste your RoboSats robot token here",
@@ -96,7 +96,7 @@ Order ID: 86212
 Status: 3 - Waiting for taker bond
 Role: maker
 Type: SELL
-Order page: https://trim-toolbox.local:57710/order/temple/86212
+Order page: https://mystart9.local:57710/order/temple/86212
 Amount: 100 currency 1
 Sats now: 123456
 Price now: 100000

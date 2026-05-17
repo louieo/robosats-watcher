@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://trim-toolbox.local:57710",
+  "baseUrl": "https://mystart9.local:57710",
   "network": "mainnet",
   "coordinators": ["temple", "lake", "moon", "bazaar", "freedomsats", "alice"],
   "robotToken": "3Afd4ed2IAxsTOBC38hd4Ts5D8eNgIWiOQ47",
