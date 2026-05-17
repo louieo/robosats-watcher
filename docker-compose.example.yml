@@ -1,0 +1,9 @@
+services:
+  robosats-watcher:
+    build: .
+    container_name: robosats-watcher
+    restart: unless-stopped
+    volumes:
+      - ./config.json:/app/config.json:ro
+    ports:
+      - "8787:8787"
