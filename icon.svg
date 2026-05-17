@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="RoboSats Watcher">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="face" x1="146" y1="142" x2="366" y2="376" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+
+  <g fill="none" stroke="#2DD4BF" stroke-width="18" stroke-linecap="round" opacity="0.95">
+    <path d="M90 256c42-69 98-104 166-104s124 35 166 104c-42 69-98 104-166 104S132 325 90 256z"/>
+    <circle cx="256" cy="256" r="62"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="142" y="164" width="228" height="188" rx="50" fill="url(#face)"/>
+    <rect x="178" y="204" width="156" height="104" rx="32" fill="#0F172A"/>
+    <circle cx="218" cy="256" r="18" fill="#FACC15"/>
+    <circle cx="294" cy="256" r="18" fill="#FACC15"/>
+    <path d="M230 296h52" stroke="#2DD4BF" stroke-width="12" stroke-linecap="round"/>
+    <path d="M256 164v-42" stroke="#CBD5E1" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="256" cy="110" r="18" fill="#FACC15"/>
+    <path d="M142 250h-34M370 250h34" stroke="#CBD5E1" stroke-width="18" stroke-linecap="round"/>
+  </g>
+
+  <path d="M344 346l60 60" stroke="#F8FAFC" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="326" cy="328" r="48" fill="none" stroke="#F8FAFC" stroke-width="20"/>
+</svg>

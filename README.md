@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="icon.svg" alt="Robosats Watcher Logo" width="21%">
+</p>
+
 # RoboSats Order Watcher
 
 Tiny private helper for watching a RoboSats order through your self-hosted RoboSats client proxy.
