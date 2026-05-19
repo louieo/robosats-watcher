@@ -6,7 +6,7 @@
 
 Tiny private helper for watching a RoboSats order through your self-hosted RoboSats client proxy.
 
-It lets a tool such as Uptime Kuma use one stable monitor instead of updating the coordinator, order ID, and Base91 auth token for every new order.
+Allows a simple monitoring tool such as Uptime Kuma to be used to generate custom notifications.
 
 ## How It Works
 
